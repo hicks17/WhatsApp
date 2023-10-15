@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="top_bar_night">#393943</color>
+    <color name="background_night">#0D0F19</color>
+    <color name="icon_green">#2FB36F</color>
+    <color name="blue_green">#1EBE86</color>
+    <color name="receiver">#4CAF50</color>
+    <color name="sent">#004DE8</color>
+
+
+</resources>

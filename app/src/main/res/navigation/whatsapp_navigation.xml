@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/whatsapp_navigation"
+    app:startDestination="@id/chatsFragment">
+
+
+    <fragment
+        android:id="@+id/callsFragment"
+        android:name="app.jsapps.whatsapp.view.fragments.CallsFragment"
+        android:label="fragment_calls"
+        tools:layout="@layout/fragment_calls" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="app.jsapps.whatsapp.view.fragments.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/chatsFragment"
+        android:name="app.jsapps.whatsapp.view.fragments.ChatsFragment"
+        android:label="fragment_chats"
+        tools:layout="@layout/fragment_chats" >
+        <action
+            android:id="@+id/action_chatsFragment_to_newChatActivity"
+            app:destination="@id/newChatActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/newChatActivity"
+        android:name="app.jsapps.whatsapp.view.NewChatActivity"
+        android:label="activity_new_chat"
+        tools:layout="@layout/activity_new_chat" />
+    <activity
+        android:id="@+id/addNewContactActivity"
+        android:name="app.jsapps.whatsapp.view.AddNewContactActivity"
+        android:label="activity_add_new_contact"
+        tools:layout="@layout/activity_add_new_contact" />
+</navigation>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "321889801272",
+    "firebase_url": "https://messages-app-19e56-default-rtdb.firebaseio.com",
+    "project_id": "messages-app-19e56",
+    "storage_bucket": "messages-app-19e56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321889801272:android:0aea5c04f70fd385e382cd",
+        "android_client_info": {
+          "package_name": "app.jsapps.whatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZeJcKSocD-zccPYAgEr2KFaVrsm6h8XY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

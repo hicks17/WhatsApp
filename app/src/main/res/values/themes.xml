@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WhatsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.WhatsApp" parent="Base.Theme.WhatsApp" />
+
+    <style name="Theme.App.Starting2" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#408784</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/charla</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.WhatsApp</item>
+    </style>
+</resources>
